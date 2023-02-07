@@ -8,6 +8,8 @@
 - Learn to follow [Swift API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/) while writing code.
 - Build a basic iOS dev portfolio
 
+# What's in the course?
+
 **Days 1-14: Introduction to Swift**
 
 The first 14 days provide a gentle warm up for your SwiftUI learning as we cover the fundamentals of the Swift programming language. You’ll work through a selection of tutorials every day, and there is some optional extra reading afterwards if you’d like to dig deeper.
