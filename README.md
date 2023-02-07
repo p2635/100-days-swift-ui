@@ -2,8 +2,6 @@
 
 <img src="https://user-images.githubusercontent.com/4522927/217293248-fe762051-affc-4ead-9670-49a4f1356cb6.png" width="500"/>
 
-The first 14 days of the '100 Days of SwiftUI' course from hackingwithswift.com.
-
 **Days 1-14: Introduction to Swift**
 
 The first 14 days provide a gentle warm up for your SwiftUI learning as we cover the fundamentals of the Swift programming language. You’ll work through a selection of tutorials every day, and there is some optional extra reading afterwards if you’d like to dig deeper.
@@ -24,3 +22,5 @@ The first 14 days provide a gentle warm up for your SwiftUI learning as we cover
 - Day 14 – optionals, nil coalescing, and checkpoint 9
 
 Note: I did not take notes on all 14 days, but I did go through it. I promise!
+
+Completed: 07/07/2023
