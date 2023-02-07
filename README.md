@@ -6,7 +6,7 @@
 
 - Learn enough to support iOS test automation work.
 - Learn to follow [Swift API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/) while writing code.
-- Build a basic iOS dev portfolio
+- Build a basic iOS dev portfolio, the proof is in the pudding!
 
 # What's in the course?
 
