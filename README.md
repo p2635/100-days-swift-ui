@@ -2,6 +2,12 @@
 
 <img src="https://user-images.githubusercontent.com/4522927/217293248-fe762051-affc-4ead-9670-49a4f1356cb6.png" width="500"/>
 
+# Goals
+
+- Learn enough to support iOS test automation work.
+- Learn to follow [Swift API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/) while writing code.
+- Build a basic iOS dev portfolio
+
 **Days 1-14: Introduction to Swift**
 
 The first 14 days provide a gentle warm up for your SwiftUI learning as we cover the fundamentals of the Swift programming language. You’ll work through a selection of tutorials every day, and there is some optional extra reading afterwards if you’d like to dig deeper.
