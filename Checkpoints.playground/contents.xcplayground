@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Checkpoint 1 - Calculate Fahrenheit'/>
+        <page name='Checkpoint 2 - Check unique strings'/>
+        <page name='Checkpoint 3 - fizz buzz'/>
+        <page name='Checkpoint 4 - Find the sqrt'/>
+        <page name='Checkpoint 5 - Chained sequences'/>
+        <page name='Checkpoint 6 - Structs'/>
+        <page name='Checkpoint 7 - Class Hierarchy'/>
+        <page name='Checkpoint 8 - Protocols'/>
+        <page name='Checkpoint 9 - [Int] optional '/>
+    </pages>
+</playground>

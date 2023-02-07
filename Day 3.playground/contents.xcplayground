@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='CWC Structures Practice'/>
+        <page name='Test 1 - Calculate Fahrenheit'/>
+        <page name='Day 3 - Arrays'/>
+        <page name='Day 3 - Dictionaries'/>
+        <page name='Day 3 - enums'/>
+        <page name='Day 3 - Sets'/>
+        <page name='Day 3 - Type Annotations'/>
+        <page name='Test 2 - Check unique strings'/>
+    </pages>
+</playground>
