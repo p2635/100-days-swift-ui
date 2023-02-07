@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='CWC Structures Practice'/>
+        <page name='Checkpoint 1 - Calculate Fahrenheit'/>
+        <page name='Day 3 - Arrays'/>
+        <page name='Day 3 - Dictionaries'/>
+        <page name='Day 3 - enums'/>
+        <page name='Day 3 - Sets'/>
+        <page name='Day 3 - Type Annotations'/>
+        <page name='Checkpoint 2 - Check unique strings'/>
+        <page name='Day 4 - for loop'/>
+        <page name='Day 4 - array ranges'/>
+        <page name='Day 4 - while loop'/>
+        <page name='Day 4 - break and continue'/>
+        <page name='Test 3 - fizz buzz'/>
+        <page name='Day 7 - Functions'/>
+        <page name='Day 7 - Multiple return values'/>
+        <page name='Day 7 - Error handling'/>
+        <page name='Test 4 - Find the sqrt'/>
+        <page name='Day 8 - Closures'/>
+        <page name='Test 5 - Chained sequences'/>
+        <page name='Day 9 - Structures'/>
+        <page name='Day 9 - Prop observers'/>
+        <page name='Day 9 - Custom init'/>
+        <page name='Test 6 - Structs'/>
+        <page name='Test 7 - Class Hierarchy'/>
+    </pages>
+</playground>
