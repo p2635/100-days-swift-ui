@@ -1,4 +1,4 @@
-# 100-days-swift-ui-intro
+# 100 Days of SwiftUI Course
 
 <img src="https://user-images.githubusercontent.com/4522927/217293248-fe762051-affc-4ead-9670-49a4f1356cb6.png" width="500"/>
 
