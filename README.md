@@ -30,6 +30,10 @@ The first 14 days provide a gentle warm up for your SwiftUI learning as we cover
 - Day 13 – protocols, extensions, and checkpoint 8
 - Day 14 – optionals, nil coalescing, and checkpoint 9
 
-Note: I did not take notes on all 14 days, but I did go through it. I promise!
+Completed: 07/07/2023. I did not take notes on all 14 days, but I did go through it. I promise!
 
-Completed: 07/07/2023
+**Days 16-24: Starting SwiftUI**
+
+Now that you’ve mastered the basics of Swift, in these days you’ll start building real SwiftUI apps using what you learned.
+
+- Day 16 - 19, WeSplit app project. This calculates how to split a check based on the number of people and how much tip you want to leave.
