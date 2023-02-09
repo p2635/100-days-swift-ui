@@ -21,36 +21,23 @@ struct ContentView: View {
     var displayName: String {
       rawValue.capitalized
     }
+    
+    // Convert to a base unit (seconds)
+    var secondsMultiplier: Double {
+      switch self{
+      case .seconds: return 1
+      case .minutes: return 60
+      case .hours: return 60 * 2
+      case .days: return 60 * 60 * 24
+      }
+    }
   }
   
   private let options = TimeUnit.allCases
   
-  // Convert to a base unit
-  private var getSeconds: Double {
-    switch inputUnit {
-    case .seconds:
-      return inputValue
-    case .minutes:
-      return (inputValue * 60)
-    case .hours:
-      return (inputValue * 60 * 60)
-    case .days:
-      return (inputValue * 60 * 60 * 24)
-    }
-  }
-  
   private var convertedValue: String {
-    var converted = getSeconds
-    switch outputUnit {
-    case .minutes:
-      converted /= 60
-    case .hours:
-      converted /= (60 * 60)
-    case .days:
-      converted /= (60 * 60 * 24)
-    default:
-      break
-    }
+    let converted = (inputValue * inputUnit.secondsMultiplier) /  outputUnit.secondsMultiplier
+    
     return converted.formatted()
   }
   
