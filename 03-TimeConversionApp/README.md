@@ -1,4 +1,6 @@
-# Time Conversion App - Day 17 Challenge
+# Time Conversion App - Day 17 Challenge ([external link](https://www.hackingwithswift.com/100/swiftui/19))
+
+For the WeSplit app project, I followed the videos to code the project. For this one, I have to use more brainpower because it's coded from scratch.
 
 ## The requirements
 
@@ -6,3 +8,7 @@
 - User chooses seconds, minutes, hours, or days.
 - User enters a value.
 - User sees the converted value.
+
+## Demo
+
+(add video here)
