@@ -1,6 +1,6 @@
 # Time Conversion App - Day 17 Challenge ([external link](https://www.hackingwithswift.com/100/swiftui/19))
 
-For the WeSplit app project, I followed the videos to code the project. For this one, I have to use more brainpower because it's coded from scratch.
+In the WeSplit app project, I followed videos to code the project so that was easy. This time converter app was more fun, because I had to use more brainpower to code from scratch.
 
 ## The requirements
 
