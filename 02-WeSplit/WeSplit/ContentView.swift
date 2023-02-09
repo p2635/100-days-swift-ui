@@ -16,16 +16,16 @@ struct ContentView: View {
   @FocusState private var billAmountFocus
   @FocusState private var tipAmountFocus
   
-  let tipPercentages = [0, 5, 10, 15, 20]
-  let currency = Locale.current.currency?.identifier ?? "GBP"
+  private let tipPercentages = [0, 5, 10, 15, 20]
+  private let currency = Locale.current.currency?.identifier ?? "GBP"
   
-  var totalTip: Double {
+  private var totalTip: Double {
     let tipPercent = Double(tipPercentage)
     let totalTip = billAmount / 100 * tipPercent
     return totalTip
   }
   
-  var payablePerPerson: Double {
+  private var payablePerPerson: Double {
     // +2 to offset the ForEach loop (see body)
     let headCount = Double(numberOfPeople) + 2
     let totalWithTip = billAmount + totalTip
