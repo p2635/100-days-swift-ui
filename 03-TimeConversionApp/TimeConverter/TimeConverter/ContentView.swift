@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  TimeConverter
+//  TimeConverter App
 //
 //  Created by Phil on 09/02/2023.
 //
