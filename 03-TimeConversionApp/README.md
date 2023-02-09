@@ -2,7 +2,7 @@
 
 ## The requirements
 
-- User can select an input unit and an output unit.
+- User selects an input unit and an output unit.
 - User chooses seconds, minutes, hours, or days.
-- User then enters a value.
+- User enters a value.
 - User sees the converted value.
