@@ -37,9 +37,9 @@ struct ContentView: View {
       Form {
         Section{
           TextField("Total Payable Amount", value: $billAmount, format:
-              .currency(code: currency))
-          .keyboardType(.decimalPad)
-          .focused($billAmountFocus)
+            .currency(code: currency))
+            .keyboardType(.decimalPad)
+            .focused($billAmountFocus)
           Picker("Number of People", selection: $numberOfPeople){
             ForEach(2..<21) {
               Text("\($0) people")
