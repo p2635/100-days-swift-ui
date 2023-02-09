@@ -12,37 +12,44 @@ struct ContentView: View {
   @State private var inputValue = 60.0
   @FocusState private var inputFocus
   @State private var outputValue = 0.0
-  @State private var inputUnit = "Seconds"
-  @State private var outputUnit = "Minutes"
+  @State private var inputUnit: TimeUnit = .seconds
+  @State private var outputUnit: TimeUnit = .minutes
   
-  private let options = ["Seconds", "Minutes", "Hours", "Days"]
+  private enum TimeUnit: String, CaseIterable{
+    case seconds, minutes, hours, days
+    
+    var displayName: String {
+      rawValue.capitalized
+    }
+  }
   
+  private let options = TimeUnit.allCases
+  
+  // Convert to a base unit
   private var getSeconds: Double {
     switch inputUnit {
-    case "Seconds":
+    case .seconds:
       return inputValue
-    case "Minutes":
+    case .minutes:
       return (inputValue * 60)
-    case "Hours":
+    case .hours:
       return (inputValue * 60 * 60)
-    case "Days":
+    case .days:
       return (inputValue * 60 * 60 * 24)
-    default:
-      return 0.0
     }
   }
   
   private var convertedValue: String {
     var converted = getSeconds
     switch outputUnit {
-      case "Minutes":
-        converted /= 60
-      case "Hours":
-        converted /= (60 * 60)
-      case "Days":
-        converted /= (60 * 60 * 24)
-      default:
-        break
+    case .minutes:
+      converted /= 60
+    case .hours:
+      converted /= (60 * 60)
+    case .days:
+      converted /= (60 * 60 * 24)
+    default:
+      break
     }
     return converted.formatted()
   }
@@ -57,7 +64,7 @@ struct ContentView: View {
               .focused($inputFocus)
           Picker("Source Unit", selection: $inputUnit) {
             ForEach(options, id: \.self) {
-              Text($0)
+              Text($0.displayName)
             }
           }
           .pickerStyle(.segmented)
@@ -65,10 +72,11 @@ struct ContentView: View {
           Text("Enter your value")
         }
         
+        
         Section{
           Picker("Output Unit", selection: $outputUnit) {
             ForEach(options, id: \.self) {
-              Text($0)
+              Text($0.displayName)
             }
           }
           .pickerStyle(.segmented)
