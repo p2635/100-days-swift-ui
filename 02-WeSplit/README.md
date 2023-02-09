@@ -1,4 +1,6 @@
-# WeSplit Demo
+# WeSplit (Day 16 - 19)
+
+Demo:
 
 https://user-images.githubusercontent.com/4522927/217546270-f3caea01-9b0a-4541-acd5-6f5f88ef6691.mov
 
