@@ -11,4 +11,4 @@ For the WeSplit app project, I followed the videos to code the project. For this
 
 ## Demo
 
-(add video here)
+https://user-images.githubusercontent.com/4522927/217820188-4d653d06-b29a-4bb4-a677-2f89d524af58.mov
