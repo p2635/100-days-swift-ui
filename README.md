@@ -36,4 +36,5 @@ Completed: 07/02/2023. I did not take notes on all 14 days, but I did go through
 
 Now that you’ve mastered the basics of Swift, in these days you’ll start building real SwiftUI apps using what you learned.
 
-- Day 16 - 19, WeSplit app project. This calculates how to split a check based on the number of people and how much tip you want to leave.
+- Day 16 - 18. WeSplit app project, this calculates how to split a check based on the number of people and how much tip you want to leave.
+- Day 19. Time Unit Converter, this calculates from one unit of time to another e.g. from minutes to seconds.
