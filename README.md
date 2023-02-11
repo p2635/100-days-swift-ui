@@ -28,8 +28,6 @@ The first 14 days provide a gentle warm up for your SwiftUI learning as we cover
 - Day 13 – protocols, extensions, and checkpoint 8
 - Day 14 – optionals, nil coalescing, and checkpoint 9
 
-Completed: 07/02/2023. I did not take notes on all 14 days, but I did go through it. I promise!
-
 **Days 16-24: Starting SwiftUI**
 
 Now that you’ve mastered the basics of Swift, in these days you’ll start building real SwiftUI apps using what you learned.
