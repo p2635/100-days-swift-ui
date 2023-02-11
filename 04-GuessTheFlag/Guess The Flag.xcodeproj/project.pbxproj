@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A5BB89E29964E150026095C /* Guess_The_FlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5BB89D29964E150026095C /* Guess_The_FlagApp.swift */; };
+		4A5BB89E29964E150026095C /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5BB89D29964E150026095C /* GuessTheFlagApp.swift */; };
 		4A5BB8A029964E150026095C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5BB89F29964E150026095C /* ContentView.swift */; };
 		4A5BB8A229964E170026095C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5BB8A129964E170026095C /* Assets.xcassets */; };
 		4A5BB8A529964E170026095C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5BB8A429964E170026095C /* Preview Assets.xcassets */; };
+		4AAB07D32996B23100E5A0B1 /* StacksPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB07D22996B23100E5A0B1 /* StacksPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A5BB89A29964E150026095C /* Guess The Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess The Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A5BB89D29964E150026095C /* Guess_The_FlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_The_FlagApp.swift; sourceTree = "<group>"; };
+		4A5BB89D29964E150026095C /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
 		4A5BB89F29964E150026095C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A5BB8A129964E170026095C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A5BB8A429964E170026095C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AAB07D22996B23100E5A0B1 /* StacksPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,11 @@
 		4A5BB89C29964E150026095C /* Guess The Flag */ = {
 			isa = PBXGroup;
 			children = (
-				4A5BB89D29964E150026095C /* Guess_The_FlagApp.swift */,
+				4A5BB89D29964E150026095C /* GuessTheFlagApp.swift */,
 				4A5BB89F29964E150026095C /* ContentView.swift */,
 				4A5BB8A129964E170026095C /* Assets.xcassets */,
 				4A5BB8A329964E170026095C /* Preview Content */,
+				4AAB07D22996B23100E5A0B1 /* StacksPractice.swift */,
 			);
 			path = "Guess The Flag";
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AAB07D32996B23100E5A0B1 /* StacksPractice.swift in Sources */,
 				4A5BB8A029964E150026095C /* ContentView.swift in Sources */,
-				4A5BB89E29964E150026095C /* Guess_The_FlagApp.swift in Sources */,
+				4A5BB89E29964E150026095C /* GuessTheFlagApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

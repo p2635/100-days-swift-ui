@@ -9,10 +9,6 @@ A guessing game that helps users learn some of the many flags of the world. Six 
 - Buttons and images
 - Showing alert messages
 
-## The requirements
-
-To be added.
-
 ## Demo
 
 To be added.
