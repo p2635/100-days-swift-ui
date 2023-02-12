@@ -32,6 +32,16 @@ struct ContentView: View {
   private let numberOfFlags = 3
   private let numberOfQuestions = 8
   
+  struct FlagImage: View {
+    var image: String
+    var body: some View {
+      Image(image)
+        .renderingMode(.original)
+        .clipShape(Capsule())
+        .shadow(color: .white, radius: 5)
+    }
+  }
+  
   var body: some View {
     
     ZStack {
@@ -56,10 +66,7 @@ struct ContentView: View {
           Button {
             flagTapped(number)
           } label: {
-            Image(countries[number])
-              .renderingMode(.original)
-              .clipShape(Capsule())
-              .shadow(color: .white, radius: 5)
+            FlagImage(image: countries[number])
           }
         }
         .padding(20)
