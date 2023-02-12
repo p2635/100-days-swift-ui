@@ -16,6 +16,7 @@
 		4AB996D42998078F00E3BBDB /* 04-ViewProps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB996D32998078F00E3BBDB /* 04-ViewProps.swift */; };
 		4AB996D62999831100E3BBDB /* 05-ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB996D52999831100E3BBDB /* 05-ViewComposition.swift */; };
 		4AB996D8299984F800E3BBDB /* 06-CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB996D7299984F800E3BBDB /* 06-CustomModifiers.swift */; };
+		4AB996DA2999900600E3BBDB /* 07-BlueFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB996D92999900600E3BBDB /* 07-BlueFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		4AB996D32998078F00E3BBDB /* 04-ViewProps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04-ViewProps.swift"; sourceTree = "<group>"; };
 		4AB996D52999831100E3BBDB /* 05-ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05-ViewComposition.swift"; sourceTree = "<group>"; };
 		4AB996D7299984F800E3BBDB /* 06-CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "06-CustomModifiers.swift"; sourceTree = "<group>"; };
+		4AB996D92999900600E3BBDB /* 07-BlueFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "07-BlueFont.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		4A333FE92997F6B10025B284 /* ViewsAndModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				4AB996D92999900600E3BBDB /* 07-BlueFont.swift */,
 				4AB996D52999831100E3BBDB /* 05-ViewComposition.swift */,
 				4AB996D7299984F800E3BBDB /* 06-CustomModifiers.swift */,
 				4A8EAF412998025E00A81061 /* 03-EnvModifiers.swift */,
@@ -159,6 +162,7 @@
 				4AB996D8299984F800E3BBDB /* 06-CustomModifiers.swift in Sources */,
 				4AB996D62999831100E3BBDB /* 05-ViewComposition.swift in Sources */,
 				4A333FEB2997F6B10025B284 /* ViewsAndModifiersApp.swift in Sources */,
+				4AB996DA2999900600E3BBDB /* 07-BlueFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
