@@ -32,6 +32,10 @@ struct ContentView: View {
     return (totalWithTip / headCount)
   }
   
+  private func toggleRed() {
+    
+  }
+  
   var body: some View {
     NavigationView{
       Form {
@@ -56,7 +60,9 @@ struct ContentView: View {
               Text($0, format: .percent)
             }
           }
-        } header: {
+          .foregroundColor(tipPercentage == 0 ? .red : .primary)
+        }
+        header: {
           Text("How much would you like to tip?")
         }
         
@@ -83,6 +89,7 @@ struct ContentView: View {
         Section{
           Text(totalTip, format: .currency(code: Locale.current
             .currency?.identifier ?? "GBP"))
+            .foregroundColor(tipPercentage == 0 ? .red : .primary)
         } header: {
           Text("The total tip amount")
         }
