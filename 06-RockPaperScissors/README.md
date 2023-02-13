@@ -22,3 +22,9 @@ To solve this challenge you’ll need to draw on skills you learned in tutorials
 - Create a `VStack` showing the player’s score, the app’s move, and whether the player should win or lose. You can use `if shouldWin` to return one of two different text views.
 - The important part is making three buttons that respond to the player’s move: Rock, Paper, or Scissors.
 - Use the `font()` modifier to adjust the size of your text. If you’re using emoji for the three moves, they also scale. Tip: You can ask for very large system fonts using `.font(.system(size: 200))` – they’ll be a fixed size, but at least you can make sure they are nice and big!"
+
+## MVP Demo
+
+Not fully finished, but a good start for an MVP.
+
+https://user-images.githubusercontent.com/4522927/218566104-030568bf-8897-4ce8-87d4-172ea21578c0.mov
