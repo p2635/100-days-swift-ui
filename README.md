@@ -28,7 +28,7 @@ The first 14 days provide a gentle warm up for your SwiftUI learning as we cover
 - Day 13 – protocols, extensions, and checkpoint 8
 - Day 14 – optionals, nil coalescing, and checkpoint 9
 
-**Days 16-24: Starting SwiftUI**
+**Days 16-25: Starting SwiftUI**
 
 Now that you’ve mastered the basics of Swift, in these days you’ll start building real SwiftUI apps using what you learned.
 
@@ -37,3 +37,7 @@ Now that you’ve mastered the basics of Swift, in these days you’ll start bui
 - Day 20 - 22. Guess the Flag, a game to score the player depending on what country flags they get right.
 - Day 23 - 24. Build custom view modifiers and custom containers.
 - Day 25 - Rock Paper Scissors Game.
+
+**Days 26-34: Expanding your skills**
+
+- Day 26 - 28. BetterRest, this helps coffee drinkers to get a good night’s sleep based on machine learning.
